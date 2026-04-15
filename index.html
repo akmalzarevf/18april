@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Zahra!</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating background elements -->
+    <div class="bg-bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Section 1: Hero Welcome -->
+    <section id="hero" class="fullscreen-section">
+        <div class="glass-container hero-content">
+            <h1 class="main-title">Selamat bergabung di 21</h1>
+            <h2 id="name-typing" class="name-highlight"></h2>
+            <p class="subtitle">18 April 2005</p>
+            <div class="scroll-indicator">
+                <span></span>
+                <div class="chevron"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Blow the Candle -->
+    <section id="cake-section" class="fullscreen-section">
+        <div class="glass-container">
+            <h2>Tiup Lilinnya! 🎂</h2>
+            <p class="instruction">Anu izinin mic nya, terus tiup hehe</p>
+            
+            <div class="cake-container">
+                <div class="cake">
+                    <div class="plate"></div>
+                    <div class="layer layer-bottom"></div>
+                    <div class="layer layer-middle"></div>
+                    <div class="layer layer-top"></div>
+                    <div class="icing"></div>
+                    <div class="drip drip1"></div>
+                    <div class="drip drip2"></div>
+                    <div class="drip drip3"></div>
+                    
+                    <div class="candle">
+                        <div id="flame" class="flame"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="mic-btn" class="btn-primary">Aktifkan Mic 🎤</button>
+            <p id="mic-status" class="status-msg"></p>
+        </div>
+    </section>
+
+    <!-- Section 3: Surprise Message / Gift -->
+    <section id="message-section" class="fullscreen-section hidden-fade">
+        <div class="glass-container gift-wrapper">
+            <h2>kata kata, buka yee</h2>
+            
+            <div class="gift-container" id="gift-box">
+                <div class="gift">
+                    <div class="gift-box"></div>
+                    <div class="gift-lid"></div>
+                    <div class="gift-ribbon-vertical"></div>
+                    <div class="gift-ribbon-horizontal"></div>
+                    <div class="gift-bow"></div>
+                </div>
+                <p class="instruction mt-2">Klik Kadonya!</p>
+            </div>
+
+            <!-- The hidden message that opens after clicking gift -->
+            <div id="secret-message" class="message-card hidden">
+                <h3>Teruntuk Zaa kuuu yang imut</h3>
+                <p>
+                    Selamat bergabung di 21 hehe! 🎉 
+                    mau ngetik apa ya hehe, bingung juga. nahh sekarang kamu udah jadi 21 juga nih lhaisss sisa berapa tahun jal ke 24 sisa 3 tahun lhoo yaa,
+                    Semoga di umur yang baru ini, setiap langkah kamu dipenuhi dengan kebahagiaan, kesehatan, dan kehildanan hehe. 
+                    jujur bingung kalau ngetik disini pagi pagi kamu masih turu O, dilanjut nnti malem biar sambil chat hehe mwahhh💙
+                </p>
+                <img src="image/gambar1.jpeg" alt="gambar1" width="600px" height="500px"> 
+                <div class="wishes">
+                    <span>✨ Stay Cantik ✨</span>
+                    <span>⭐ Stay Happy ⭐</span>
+                    <span>🌟 Keep Shining 🌟</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
